@@ -42,10 +42,12 @@
     <img src="../Assets/img/2022-Greenwich-Eng.png" alt="Logo">
 </div>
 <nav class="navbar navbar-expand-lg" style="background-color: #003399;">
-    <div class="d-flex navbar-collapses" id="">
-        <div class="navbar-nav">
-            <div class="button_logout"><a class="nav-link active" style="color: #ffffff;" href="#">Logout</a></div>
-        </div>
+    <div class="navbar-nav">
+        <!-- <div class="btn-group">
+            <button class="button_nav"><a class="nav-link active" style="color: #ffffff;" href="#" >Notification</a></button>
+        </div> -->
+
+          <div class="button_nav"><a class="nav-link active" style="color: #ffffff;" href="#">Logout</a></div>
     </div>
 </nav>
 <body>
@@ -71,10 +73,10 @@
               <tbody>
                 <tr>
                     <th scope="row">G401</th>
-                    <td><a href="#"><div class="button">Book</div></a></td>
-                    <td><a href="#"><div class="button">Book</div></a></td>
-                    <td><a href="#"><div class="button">Book</div></a></td>
-                    <td><a href="#"><div class="button">Book</div></a></td>
+                    <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button></td>
+                    <td></td>
+                    <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button></td>
+                    <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -87,16 +89,22 @@
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td><a href="#"><div class="button">Book</div></a></td>
-                    <td><a href="#"><div class="button">Book</div></a></td>
+                    <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button></td>
+                    <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button></td>
                     <td></td>
                 </tr>
                 <tr>
                     <th scope="row">G403</th>
                     <td></td>
+                    <td>
+                        <span>GCC1002</span>
+                    </td>
                     <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>
+                        <span>GDC210056</span>
+                        <span>Nguyen Van B</span> 
+                        <span>Processing</span> 
+                    </td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -107,9 +115,9 @@
                     <th scope="row">G404</th>
                     <td></td>
                     <td></td>
-                    <td><a href="#"><div class="button">Book</div></a></td>
+                    <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button></td>
                     <td></td>
-                    <td><a href="#"><div class="button">Book</div></a></td>
+                    <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -118,17 +126,84 @@
                 <tr>
                     <th scope="row">G405</th>
                     <td></td>
-                    <td><a href="#"><div class="button">Book</div></a></td>
+                    <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button></td>
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td></td>
+                    <td>
+                        <span>GDC210008</span>
+                        <span>Nguyen Van A</span> 
+                        <span>Processing</span> 
+                    </td>
                     <td></td>
                     <td></td>
                     <td></td>
                 </tr>
+                <tr>
+                    <th scope="row">G406</th>
+                    <td></td>
+                    <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <span>GDC220052</span>
+                        <span>Nguyen Van C</span> 
+                        <span>Using</span> 
+                    </td>
+                </tr>
               </tbody>
         </table>
     </div>
+<!-- Popup Booking -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">BOOKING INFORMATION</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-2">
+              <label for="recipient-name" class="col-form-label">Student Name:</label>
+              <input type="text" class="form-control" id="recipient-name" readonly>
+            </div>
+            <div class="mb-2">
+              <label for="recipient-name" class="col-form-label">Student Id:</label>
+              <input type="text" class="form-control" id="recipient-name" readonly>
+            </div>
+            <div class="display_inline">
+                <div class="mb-2 col-md-6">
+                  <label for="recipient-name" class="col-form-label">Room:</label>
+                  <input type="text" class="form-control" id="recipient-name" readonly>
+                </div>
+                <div class="mb-2 col-md-6">
+                  <label for="recipient-name" class="col-form-label">Slot:</label>
+                  <input type="text" class="form-control" id="recipient-name" readonly>
+                </div>
+            </div>
+            <div class="mb-2">
+              <label for="message-text" class="col-form-label">Reason:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+          <h6>Note(*): Please check your email regularly to stay up-to-date with your booking request.</h6>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="button modal">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Popup Booking -->
 </body>
+<footer class="text-center text-white">
+        <div class="text-center p-3">
+            &copy; Powered by Greenwich Việt Nam
+        </div>
+  </footer>
 </html>
