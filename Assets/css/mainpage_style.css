@@ -1,0 +1,72 @@
+:root{
+    --Orange_yellow: #FFC93C;
+    --blue_light: #03e9f4;
+    --blue_heavy: #2C74B3;
+    --blue_neon: #5e98a2;
+    --white: #ffffff;
+    --black: #000000;
+    --green_heavy_gradient:#227c7064;
+    --green_light: #439a97d0;
+    --Orange: #FF7000;
+    --navy: #003399a9;
+    --navy2: #003399;
+
+}
+*{
+    font-family:'Quicksand', sans-serif !important;
+}
+h3{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+.button_logout{
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.head_logo{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+.head_logo img{
+    width: 300px;
+}
+
+.navbar-nav{
+    margin-left: 1430px;
+}
+
+.tables{
+    border: 1px solid;
+    margin: 30px;
+    border-radius: 8px;
+}
+
+tr,th{
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+/* Booking button */
+.button {
+    font-family: inherit;
+    display: inline-block;
+    width: 5em;
+    height: 2.2em;
+    line-height: 2em;
+    overflow: hidden;
+    /* margin: 5px; */
+    font-size: 17px;
+    z-index: 1;
+    color: var(--white);
+    border: 2px solid var(--navy2);
+    border-radius: 6px;
+    position: relative;
+    background: var(--navy2);
+  }
+
+
+/* Booking button */
