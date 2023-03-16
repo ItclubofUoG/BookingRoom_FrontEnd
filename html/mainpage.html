@@ -30,6 +30,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Dancing+Script&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,11 +46,13 @@
 </div>
 <nav class="navbar navbar-expand-lg" style="background-color: #003399;">
     <div class="navbar-nav">
+    
+      <div class="button_nav"><a class="nav-link active" style="color: #ffffff;" href="#">Logout</a></div>
+    </div>
         <!-- <div class="btn-group">
             <button class="button_nav"><a class="nav-link active" style="color: #ffffff;" href="#" >Notification</a></button>
         </div> -->
-
-          <div class="button_nav"><a class="nav-link active" style="color: #ffffff;" href="#">Logout</a></div>
+          
     </div>
 </nav>
 <body>
@@ -190,7 +195,7 @@
               <textarea class="form-control" id="message-text"></textarea>
             </div>
           </form>
-          <h6>Note(*): Please check your email regularly to stay up-to-date with your booking request.</h6>
+          <h6 class="note">Note(*): Please check your email regularly to stay up-to-date with your booking request.</h6>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -200,6 +205,44 @@
     </div>
   </div>
 <!-- Popup Booking -->
+<!-- Area for Admin -->
+<div class="border-2"></div>
+<div class="title">
+  <h3>LIST OF REQUEST</h3>
+</div>
+<!-- Cards request -->
+<div class="card" style="border: 2px solid #003399;">
+    <h5 class="card-header" style="font-weight: 600; background-color: #003399; color: #ffffff;">Time send request</h5>
+    <div class="card-body row">
+        <div class="card_content col-md-10">
+          <h6 class="card-title"><span>Student Name:</span> Dang Minh Dat</h6>
+          <h6 class="card-title"><span>Student Id:</span> GCC210147</h6>
+          <h6 class="card-title"><span>Room:</span> G412</h6>
+          <h6 class="card-text"><span>Reason:</span> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit eos aperiam rerum hic. Vero, tempore. Vel, omnis voluptatem perspiciatis cumque numquam libero facilis modi iusto aperiam dignissimos? Expedita, vitae aut?</h6>
+        </div>
+        <div class="card_button col-md-2">
+          <button class="button accept" style=" border: none;"> Accept </button>
+          <button class="button recject" style="background-color: #D2001A; border: #D2001A;"> Reject </button>
+        </div>
+    </div>
+</div>
+<div class="card" style="border: 2px solid #003399;">
+    <h5 class="card-header" style="font-weight: 600; background-color: #003399; color: #ffffff;">Time send request</h5>
+    <div class="card-body row">
+        <div class="card_content col-md-10">
+          <h6 class="card-title"><span>Student Name:</span> Dang Minh Dat</h6>
+          <h6 class="card-title"><span>Student Id:</span> GCC210147</h6>
+          <h6 class="card-title"><span>Room:</span> G412</h6>
+          <h6 class="card-text " style="font-weight: 600;"><span>Reason:</span> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit eos aperiam rerum hic. Vero, tempore. Vel, omnis voluptatem perspiciatis cumque numquam libero facilis modi iusto aperiam dignissimos? Expedita, vitae aut?</h6>
+        </div>
+        <div class="card_button col-md-2">
+          <button class="button accept" style=" border: none;"> Accept </button>
+          <button class="button recject" style="background-color: #D2001A; border: #D2001A;"> Reject </button>
+        </div>
+    </div>
+</div>
+<!-- Cards request -->
+<!-- Area for Admin -->
 </body>
 <footer class="text-center text-white">
         <div class="text-center p-3">
