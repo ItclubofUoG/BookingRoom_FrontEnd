@@ -118,6 +118,9 @@ h5.modal-title{
     text-align: center;
     justify-content: center;
 }
+button .button{
+    overflow: none;
+}
 h6{
     padding-bottom: 5px;
 }
