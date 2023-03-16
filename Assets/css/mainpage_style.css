@@ -139,3 +139,18 @@ h6{
     margin-bottom: 0;
     font-weight: 500;
 }
+.dropdown{
+    margin-left: 40px;
+}
+.selection{
+   margin-left: 50px;
+   width: 150px;
+}
+select{
+    background-color: #003399 !important;
+    color: #ffffff !important;
+}
+select option{
+    background-color: #ffffff;
+    color: #000000;
+}
