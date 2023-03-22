@@ -50,6 +50,7 @@ h3{
     border-radius: 8px;
 }
 
+
 tr,th{
     text-align: center;
     vertical-align: middle !important;
@@ -106,6 +107,7 @@ span:nth-child(3){
 .tables{
     overflow-x: auto;
 }
+
 .text-center{
     background-color: #003399;
 }
@@ -153,4 +155,33 @@ select{
 select option{
     background-color: #ffffff;
     color: #000000;
+}
+
+/* Pagination */
+input[type="button"] {
+	transition: all .3s;
+    border: 1px solid #ddd;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+	font-size: 15px;
+}
+
+input[type="button"]:not(.active) {
+	background-color:transparent;
+}
+
+.active {
+	background-color: #003399;
+	color :#fff;
+}
+
+input[type="button"]:hover:not(.active) {
+	background-color: #ddd;
+}
+
+#buttons{
+    justify-content: center;
+    text-align: center;
+    position: relative;
 }

@@ -72,108 +72,121 @@
         <option value="Saturday">Saturday, <span>24</span></option>
       </select>
     </div>
-    <div class="tables">
-        <table class="table table-bordered">
-            <thead>
-                <tr>
-                  <th scope="col">WEEK</th>
-                  <th scope="col">Slot 1</th>
-                  <th scope="col">Slot 2</th>
-                  <th scope="col">Slot 3</th>
-                  <th scope="col">Slot 4</th>
-                  <th scope="col">Slot 5</th>
-                  <th scope="col">Slot 6</th>
-                  <th scope="col">Slot 7</th>
-                  <th scope="col">Slot 8</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                    <th scope="row">G401</th>
-                    <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button></td>
-                    <td></td>
-                    <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button></td>
-                    <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th scope="row">G402</th>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button></td>
-                    <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th scope="row">G403</th>
-                    <td></td>
-                    <td>
-                        <span>GCC1002</span>
-                    </td>
-                    <td></td>
-                    <td>
-                        <span>GDC210056</span>
-                        <span>Nguyen Van B</span> 
-                        <span>Processing</span> 
-                    </td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th scope="row">G404</th>
-                    <td></td>
-                    <td></td>
-                    <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button></td>
-                    <td></td>
-                    <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th scope="row">G405</th>
-                    <td></td>
-                    <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>
-                        <span>GDC210008</span>
-                        <span>Nguyen Van A</span> 
-                        <span>Processing</span> 
-                    </td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th scope="row">G406</th>
-                    <td></td>
-                    <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>
-                        <span>GDC220052</span>
-                        <span>Nguyen Van C</span> 
-                        <span>Using</span> 
-                    </td>
-                </tr>
+    <div class="tables" id="tables">
+        <table class="table table-bordered" id="myTable">
+                <thead>
+                  <tr>
+                    <th scope="col">WEEK</th>
+                    <th scope="col">Slot 1</th>
+                    <th scope="col">Slot 2</th>
+                    <th scope="col">Slot 3</th>
+                    <th scope="col">Slot 4</th>
+                    <th scope="col">Slot 5</th>
+                    <th scope="col">Slot 6</th>
+                    <th scope="col">Slot 7</th>
+                    <th scope="col">Slot 8</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                      <th scope="row">G401</th>
+                      <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button></td>
+                      <td></td>
+                      <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button></td>
+                      <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <th scope="row">G402</th>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button></td>
+                      <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <th scope="row">G403</th>
+                      <td></td>
+                      <td>
+                          <span>GCC1002</span>
+                      </td>
+                      <td></td>
+                      <td>
+                          <span>GDC210056</span>
+                          <span>Nguyen Van B</span>
+                          <span>Processing</span>
+                      </td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <th scope="row">G404</th>
+                      <td></td>
+                      <td></td>
+                      <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button></td>
+                      <td></td>
+                      <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <th scope="row">G405</th>
+                      <td></td>
+                      <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                          <span>GDC210008</span>
+                          <span>Nguyen Van A</span>
+                          <span>Processing</span>
+                      </td>
+                      <td></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <th scope="row">G406</th>
+                      <td></td>
+                      <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                          <span>GDC220052</span>
+                          <span>Nguyen Van C</span>
+                          <span>Using</span>
+                      </td>
+                  </tr>
+                  <tr>
+                      <th scope="row">G407</th>
+                      <td></td>
+                      <td><button type="button" class="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book</button></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                          <span>GDC220052</span>
+                          <span>Nguyen Van C</span>
+                          <span>Using</span>
+                      </td>
+                  </tr>
               </tbody>
-        </table>
+      </table>
     </div>
+    
 <!-- Popup Booking -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -217,28 +230,6 @@
     </div>
   </div>
 <!-- Popup Booking -->
-<!-- Pagination -->
-<nav aria-label="Page navigation">
-  <ul class="pagination justify-content-center">
-    <li class="page-item">
-      <a class="page-link" href="#" aria-label="Previous">
-        <span aria-hidden="true">&laquo;</span>
-        <span class="sr-only">Previous</span>
-      </a>
-    </li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item"><a class="page-link" href="#">4</a></li>
-    <li class="page-item">
-      <a class="page-link" href="#" aria-label="Next">
-        <span aria-hidden="true">&raquo;</span>
-        <span class="sr-only">Next</span>
-      </a>
-    </li>
-  </ul>
-</nav>
-<!-- Pagination -->
 <!-- Area for Admin -->
 <div class="border-2"></div>
 <div class="title" id="moving_title">
@@ -279,6 +270,7 @@
 
 <!-- Cards request -->
 <!-- Area for Admin -->
+<script src="../Assets/js/mainpage.js"></script>
 </body>
 <footer class="text-center text-white">
         <div class="text-center p-3">
