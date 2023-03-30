@@ -1,71 +1,82 @@
-:root{
+:root {
     --Orange_yellow: #FFC93C;
     --blue_light: #03e9f4;
     --blue_heavy: #2C74B3;
     --blue_neon: #5e98a2;
     --white: #ffffff;
     --black: #000000;
-    --green_heavy_gradient:#227c7064;
+    --green_heavy_gradient: #227c7064;
     --green_light: #439a97d0;
     --Orange: #FF7000;
     --navy: #003399a9;
     --navy2: #003399;
+}
 
+* {
+    font-family: 'Quicksand', sans-serif !important;
 }
-*{
-    font-family:'Quicksand', sans-serif !important;
-}
-label, .modal-title{
+
+label,
+.modal-title {
     font-weight: 600;
 }
 
-h3{
+h3 {
     font-weight: 700;
     font-size: 40px;
     text-align: center;
     padding-top: 10px;
 }
-.button_nav{
+
+.button_nav {
     border: 2px solid #ffffff;
     border-radius: 5px;
     margin-right: 20px;
     background-color: #003399;
 }
-.head_logo{
+
+.head_logo {
     position: relative;
     justify-content: center;
     text-align: center;
 }
-.head_logo img{
+
+.head_logo img {
     width: 300px;
 }
 
-.navbar{
+.navbar {
     justify-content: end;
 }
 
-.tables{
+.tables {
     border: 1px solid;
     margin: 30px;
     border-radius: 8px;
 }
 
-
-tr,th{
+tr,
+th {
     text-align: center;
     vertical-align: middle !important;
 }
-.display_inline{
+
+.display_inline {
     display: flex;
 }
-.col-md-6{
+
+.col-md-6 {
     padding-right: 15px;
 }
-.note{
+
+.note {
     font-style: italic;
     font-weight: 600;
 }
+
+
 /* Booking button */
+
 .button {
     font-family: inherit;
     display: inline-block;
@@ -81,106 +92,124 @@ tr,th{
     border-radius: 6px;
     position: relative;
     background: var(--navy2);
-  }
+}
+
+
 /* Booking button */
 
-span{
+span {
     display: block;
 }
-td span{
+
+td span {
     font-weight: 600;
 }
-span:nth-child(3){
+
+span:nth-child(3) {
     color: red;
 }
-.border-2{
-    border: 1px solid #003399; 
+
+.border-2 {
+    border: 1px solid #003399;
     margin: 10px;
     padding: 2px;
     background-color: #003399;
     border-radius: 3px;
 }
-.text-center{
+
+.text-center {
     font-weight: 600;
 }
 
-.tables{
+.tables {
     overflow-x: auto;
 }
 
-.text-center{
+.text-center {
     background-color: #003399;
 }
-h6 span{
+
+h6 span {
     display: inline-flex;
     font-weight: 700;
 }
-h5.modal-title{
-    color:#003399;
+
+h5.modal-title {
+    color: #003399;
     text-align: center;
     justify-content: center;
 }
-button .button{
+
+button .button {
     overflow: none;
 }
-h6{
+
+h6 {
     padding-bottom: 5px;
 }
-.card-body{
+
+.card-body {
     display: flex;
 }
 
-.card{
+.card {
     margin: 40px 10% 30px 10%;
 }
 
-.card_button{
+.card_button {
     margin: auto;
 }
-.card-title{
+
+.card-title {
     margin-bottom: 0;
     font-weight: 500;
 }
-.dropdown{
+
+.dropdown {
     margin-left: 40px;
 }
-.selection{
-   margin-left: 50px;
-   width: 170px;
+
+.selection {
+    margin-left: 50px;
+    width: 170px;
 }
-select{
+
+select {
     background-color: #003399 !important;
     color: #ffffff !important;
 }
-select option{
+
+select option {
     background-color: #ffffff;
     color: #000000;
 }
 
+
 /* Pagination */
+
 input[type="button"] {
-	transition: all .3s;
+    transition: all .3s;
     border: 1px solid #ddd;
     padding: 8px 16px;
     text-decoration: none;
     border-radius: 5px;
-	font-size: 15px;
+    font-size: 15px;
 }
 
 input[type="button"]:not(.active) {
-	background-color:transparent;
+    background-color: transparent;
 }
 
 .active {
-	background-color: #003399;
-	color :#fff;
+    background-color: #003399;
+    color: #fff;
 }
 
 input[type="button"]:hover:not(.active) {
-	background-color: #ddd;
+    background-color: #ddd;
 }
 
-#buttons{
+#buttons {
     justify-content: center;
     text-align: center;
     position: relative;
