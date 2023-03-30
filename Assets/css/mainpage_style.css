@@ -215,3 +215,20 @@ input[type="button"]:hover:not(.active) {
     position: relative;
 }
 
+.borders{
+    border: 3px solid var(--navy2);
+    margin: 55px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+button{
+    margin-top: 20px;
+    background-color: var(--navy2) !important;
+    border: var(--navy2);
+    position: relative;
+    justify-content: center;
+}
+.input{
+    padding-top: 20px;
+}
